@@ -6,8 +6,41 @@ body {
     flex-direction: column;
 }
 
-ul {
+
+
+  .header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .header .header-image img {
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 50%;
+    /* margin-left: 20px; */
+  }
+
+
+  .header .header-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .header .header-links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* margin-right: 20px; */
+  }
+
+  .header .header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
   }
