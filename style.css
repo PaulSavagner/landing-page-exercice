@@ -199,3 +199,16 @@ p.quote-author {
   padding: 8px 25px;
   font-weight: bold;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+
+}
+
+p.footer {
+  color: #E5E7EB;
+  padding: 30px;
+}
