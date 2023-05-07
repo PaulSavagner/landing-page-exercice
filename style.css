@@ -165,12 +165,17 @@ p.quote-author {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px;
+  margin: 50px 30px;
   padding: 30px;
   background-color: #3882F6;
   border-radius: 25px;
 }
 
 .ad {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 5px 50px;
+  color: white;
 }
